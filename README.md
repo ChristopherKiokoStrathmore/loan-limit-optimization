@@ -1,3 +1,5 @@
+![Loan Limit Optimization: a predict-then-optimize engine for credit-limit increases under budget and expected-loss constraints](docs/social-preview.png)
+
 # Loan Limit Optimization (ML + OR)
 
 **Author:** Christopher Nguu
@@ -45,6 +47,7 @@ The scripts write reproducible outputs to `data/` and `figures/`. The checked-in
 - `figures/` — model-validation, portfolio, optimization, and stress-test visuals.
 - `Loan_Limit_Optimization_Report.md` / `.pdf` — project report.
 - `requirements.txt` — Python dependencies.
+- `docs/social-preview.png` — repository banner and social preview.
 
 ## Scope and limitations
 
