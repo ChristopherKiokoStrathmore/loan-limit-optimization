@@ -1,0 +1,1002 @@
+cohort,pd_band,util_bucket,tenure_bucket,product,n,tier,tier_label,m_exp_profit_per_acct,m_exp_el_per_acct,m_exp_ead_per_acct,m_exp_pd,m_exp_limit,m_exp_churn,m_exp_util,m_p_accept,m_inc_limit_per_acct,m_exp_profit_cohort,m_exp_el_cohort,m_exp_ead_cohort,m_inc_limit_cohort
+A|high|established|personal,A,high,established,"<bound method Series.prod of cohort           A|high|established|personal
+n                                          1
+pd_band                                    A
+util_bucket                             high
+tenure_bucket                    established
+product                             personal
+base_pd                              0.01908
+current_limit                        13000.0
+utilization                         0.719072
+balance                          9347.936772
+total_limit                          13000.0
+mean_income                     11395.090831
+Name: 0, dtype: object>",1,1.0,100%,5712.295610206972,325.87489706569886,21017.969357886508,0.023800575984238223,25740.0,0.026129373891705047,0.8157179718476388,0.98,12740.0,5712.295610206972,325.87489706569886,21017.969357886508,12740.0
+A|high|established|salary_advance,A,high,established,"<bound method Series.prod of cohort           A|high|established|salary_advance
+n                                                1
+pd_band                                          A
+util_bucket                                   high
+tenure_bucket                          established
+product                             salary_advance
+base_pd                                   0.034856
+current_limit                              17000.0
+utilization                               0.706177
+balance                               12005.002831
+total_limit                                17000.0
+mean_income                           16354.705685
+Name: 1, dtype: object>",1,1.0,100%,7064.625434649141,771.3662559541178,27201.27566489607,0.043529933716165294,33660.0,0.02687088042794874,0.8072405212545753,0.98,16660.0,7064.625434649141,771.3662559541178,27201.27566489607,16660.0
+A|high|loyal|personal,A,high,loyal,"<bound method Series.prod of cohort           A|high|loyal|personal
+n                                    1
+pd_band                              A
+util_bucket                       high
+tenure_bucket                    loyal
+product                       personal
+base_pd                       0.039854
+current_limit                  70500.0
+utilization                   0.739917
+balance                    52164.14482
+total_limit                    70500.0
+mean_income               31008.552849
+Name: 2, dtype: object>",1,1.0,100%,30351.38196727754,3745.740739246926,115884.26905482686,0.0496200773353916,139590.0,0.0272722592022586,0.8294214014833476,0.98,69090.0,30351.38196727754,3745.740739246926,115884.26905482686,69090.0
+A|high|loyal|salary_advance,A,high,loyal,"<bound method Series.prod of cohort           A|high|loyal|salary_advance
+n                                          2
+pd_band                                    A
+util_bucket                             high
+tenure_bucket                          loyal
+product                       salary_advance
+base_pd                             0.030232
+current_limit                        14750.0
+utilization                          0.71529
+balance                         21087.857114
+total_limit                          29500.0
+mean_income                     37745.050552
+Name: 3, dtype: object>",2,1.0,100%,6259.179805788345,584.2723628850144,23775.093691754068,0.03772396288200061,29205.0,0.02667699995520753,0.813231332517605,0.98,14455.0,12518.35961157669,1168.544725770029,47550.187383508135,28910.0
+A|low|established|personal,A,low,established,"<bound method Series.prod of cohort           A|low|established|personal
+n                                        10
+pd_band                                   A
+util_bucket                             low
+tenure_bucket                   established
+product                            personal
+base_pd                            0.030333
+current_limit                       23850.0
+utilization                        0.312043
+balance                        76480.957048
+total_limit                        238500.0
+mean_income                     28250.15031
+Name: 4, dtype: object>",10,1.0,100%,5916.776240506315,665.0906375651011,25994.328850917795,0.039234445666302624,47223.0,0.024907826092374637,0.5481373258452913,0.98,23373.0,59167.76240506315,6650.906375651011,259943.28850917795,233730.0
+A|low|established|salary_advance,A,low,established,"<bound method Series.prod of cohort           A|low|established|salary_advance
+n                                              10
+pd_band                                         A
+util_bucket                                   low
+tenure_bucket                         established
+product                            salary_advance
+base_pd                                  0.028591
+current_limit                             11750.0
+utilization                              0.310379
+balance                              36090.548301
+total_limit                              117500.0
+mean_income                           28722.90952
+Name: 5, dtype: object>",10,1.0,100%,2849.050086643626,308.28209956085766,12781.121973522244,0.03698639050146612,23265.0,0.024812350771369143,0.5470434004019621,0.98,11515.0,28490.50086643626,3082.8209956085766,127811.21973522243,115150.0
+A|low|loyal|personal,A,low,loyal,"<bound method Series.prod of cohort           A|low|loyal|personal
+n                                  10
+pd_band                             A
+util_bucket                       low
+tenure_bucket                   loyal
+product                      personal
+base_pd                      0.027609
+current_limit                 19700.0
+utilization                  0.303293
+balance                  62263.670405
+total_limit                  197000.0
+mean_income              26605.909765
+Name: 6, dtype: object>",10,1.0,100%,4833.460467561596,495.23856698311533,21248.06348005045,0.03573931559291027,39006.0,0.024731524628600492,0.5423845354837851,0.98,19306.0,48334.604675615956,4952.385669831154,212480.6348005045,193060.0
+A|low|loyal|salary_advance,A,low,loyal,"<bound method Series.prod of cohort           A|low|loyal|salary_advance
+n                                         8
+pd_band                                   A
+util_bucket                             low
+tenure_bucket                         loyal
+product                      salary_advance
+base_pd                            0.031368
+current_limit                       11812.5
+utilization                        0.289749
+balance                        27793.957755
+total_limit                         94500.0
+mean_income                    30011.410171
+Name: 7, dtype: object>",8,1.0,100%,2726.4573968747877,332.30692740515116,12533.659456720006,0.040652772384732735,23388.75,0.024862116519584566,0.5334807033209549,0.98,11576.25,21811.6591749983,2658.4554192412093,100269.27565376005,92610.0
+A|low|new|salary_advance,A,low,new,"<bound method Series.prod of cohort           A|low|new|salary_advance
+n                                       1
+pd_band                                 A
+util_bucket                           low
+tenure_bucket                         new
+product                    salary_advance
+base_pd                          0.024288
+current_limit                     12000.0
+utilization                      0.348775
+balance                       4185.302595
+total_limit                       12000.0
+mean_income                  14019.973609
+Name: 8, dtype: object>",1,1.0,100%,3168.566024039954,278.7080691867458,13649.455678349961,0.03131527280858149,23760.0,0.02476360179319859,0.5722848271365925,0.98,11760.0,3168.566024039954,278.7080691867458,13649.455678349961,11760.0
+A|med|established|personal,A,med,established,"<bound method Series.prod of cohort           A|med|established|personal
+n                                        70
+pd_band                                   A
+util_bucket                             med
+tenure_bucket                   established
+product                            personal
+base_pd                            0.029268
+current_limit                  15728.571429
+utilization                        0.481864
+balance                       533807.336943
+total_limit                       1101000.0
+mean_income                    31116.437933
+Name: 9, dtype: object>",70,1.0,100%,5060.064959515434,500.74184189293857,20600.089822245845,0.03729420352232852,31142.571428571428,0.02560114113384304,0.6597770822457933,0.98,15414.0,354204.54716608033,35051.928932505696,1442006.2875572091,1078980.0
+A|med|established|salary_advance,A,med,established,"<bound method Series.prod of cohort           A|med|established|salary_advance
+n                                              76
+pd_band                                         A
+util_bucket                                   med
+tenure_bucket                         established
+product                            salary_advance
+base_pd                                  0.028276
+current_limit                        18164.473684
+utilization                              0.513733
+balance                             706399.598732
+total_limit                             1380500.0
+mean_income                          31002.620496
+Name: 10, dtype: object>",76,1.0,100%,6146.194971756822,574.621333432663,24539.76782760294,0.03592889785249252,35965.65789473685,0.025691201349639765,0.6807280718175892,0.98,17801.184210526317,467110.81785351847,43671.22134088239,1865022.3548978234,1352890.0
+A|med|loyal|personal,A,med,loyal,"<bound method Series.prod of cohort           A|med|loyal|personal
+n                                 104
+pd_band                             A
+util_bucket                       med
+tenure_bucket                   loyal
+product                      personal
+base_pd                      0.027525
+current_limit            17024.038462
+utilization                  0.482371
+balance                 846064.001204
+total_limit                 1770500.0
+mean_income               34003.07707
+Name: 11, dtype: object>",104,1.0,100%,5525.521090846605,509.93769452980246,22307.978775808097,0.0350714765504313,33707.596153846156,0.02551517335987631,0.6601107506270748,0.98,16683.55769230769,574654.1934480469,53033.52023109946,2320029.792684042,1735090.0
+A|med|loyal|salary_advance,A,med,loyal,"<bound method Series.prod of cohort           A|med|loyal|salary_advance
+n                                       104
+pd_band                                   A
+util_bucket                             med
+tenure_bucket                         loyal
+product                      salary_advance
+base_pd                            0.026607
+current_limit                       21562.5
+utilization                        0.495215
+balance                      1096545.262502
+total_limit                       2242500.0
+mean_income                    32378.629952
+Name: 12, dtype: object>",104,1.0,100%,7184.820932953,631.538621709166,28613.58663054466,0.033864097975392804,42693.75,0.025525278064879905,0.6685546559868172,0.98,21131.25,747221.3770271121,65680.01665775327,2975813.0095766447,2197650.0
+A|med|new|personal,A,med,new,"<bound method Series.prod of cohort           A|med|new|personal
+n                                 4
+pd_band                           A
+util_bucket                     med
+tenure_bucket                   new
+product                    personal
+base_pd                    0.034251
+current_limit               29125.0
+utilization                0.543047
+balance                65918.267087
+total_limit                116500.0
+mean_income            28337.778145
+Name: 13, dtype: object>",4,1.0,100%,10127.541622101526,1144.3009525790296,40452.28252711682,0.04340715870895843,57667.5,0.026122509573217118,0.6999988616085827,0.98,28542.5,40510.1664884061,4577.2038103161185,161809.13010846727,114170.0
+A|med|new|salary_advance,A,med,new,"<bound method Series.prod of cohort           A|med|new|salary_advance
+n                                       6
+pd_band                                 A
+util_bucket                           med
+tenure_bucket                         new
+product                    salary_advance
+base_pd                          0.029153
+current_limit                33416.666667
+utilization                      0.499938
+balance                     108054.717772
+total_limit                      200500.0
+mean_income                  26221.395985
+Name: 14, dtype: object>",6,1.0,100%,11193.679732788954,1076.8393744234095,44548.427427406175,0.037088202474737535,66165.0,0.025674857915274896,0.6716593811541177,0.98,32748.333333333332,67162.07839673373,6461.036246540457,267290.564564437,196490.0
+B|high|established|personal,B,high,established,"<bound method Series.prod of cohort           B|high|established|personal
+n                                          5
+pd_band                                    B
+util_bucket                             high
+tenure_bucket                    established
+product                             personal
+base_pd                             0.062786
+current_limit                        10200.0
+utilization                         0.727791
+balance                         37215.309988
+total_limit                          51000.0
+mean_income                     34951.463114
+Name: 15, dtype: object>",5,1.0,100%,3897.7979185390845,846.5587739011554,16606.136391221946,0.07825695558968881,20196.0,0.02837924250021426,0.8214497612331029,0.98,9996.0,19488.989592695423,4232.793869505777,83030.68195610974,49980.0
+B|high|established|salary_advance,B,high,established,"<bound method Series.prod of cohort           B|high|established|salary_advance
+n                                                5
+pd_band                                          B
+util_bucket                                   high
+tenure_bucket                          established
+product                             salary_advance
+base_pd                                   0.068892
+current_limit                              19600.0
+utilization                               0.712368
+balance                               69742.879998
+total_limit                                98000.0
+mean_income                           30829.790223
+Name: 16, dtype: object>",5,1.0,100%,7344.6912609342535,1765.5507068755428,31518.541893891717,0.08598760731655072,38808.0,0.02862033602405648,0.8113105875641861,0.98,19208.0,36723.456304671265,8827.753534377714,157592.70946945858,96040.0
+B|high|loyal|personal,B,high,loyal,"<bound method Series.prod of cohort           B|high|loyal|personal
+n                                   15
+pd_band                              B
+util_bucket                       high
+tenure_bucket                    loyal
+product                       personal
+base_pd                       0.065842
+current_limit             19833.333333
+utilization                    0.73204
+balance                  218373.842611
+total_limit                   297500.0
+mean_income                30069.99312
+Name: 17, dtype: object>",15,1.0,100%,7675.051275153799,1731.373935626469,32398.7941041127,0.08203513650241305,39269.99999999999,0.0285526053106894,0.8242431304875181,0.98,19436.666666666664,115125.76912730698,25970.60903439703,485981.9115616905,291549.99999999994
+B|high|loyal|salary_advance,B,high,loyal,"<bound method Series.prod of cohort           B|high|loyal|salary_advance
+n                                          9
+pd_band                                    B
+util_bucket                             high
+tenure_bucket                          loyal
+product                       salary_advance
+base_pd                              0.05987
+current_limit                   20611.111111
+utilization                         0.724869
+balance                        134148.532717
+total_limit                         185500.0
+mean_income                     27579.296529
+Name: 18, dtype: object>",9,1.0,100%,8083.972575362337,1627.8508946990896,33478.02734482047,0.07464261053202222,40809.99999999999,0.028218853758919568,0.8195291014678399,0.98,20198.888888888887,72755.75317826103,14650.658052291807,301302.2461033842,181789.99999999997
+B|low|established|personal,B,low,established,"<bound method Series.prod of cohort           B|low|established|personal
+n                                         5
+pd_band                                   B
+util_bucket                             low
+tenure_bucket                   established
+product                            personal
+base_pd                            0.067692
+current_limit                       21900.0
+utilization                        0.302567
+balance                        32630.275504
+total_limit                        109500.0
+mean_income                    40826.417316
+Name: 19, dtype: object>",5,1.0,100%,4579.979896664379,1348.7222215211839,23600.386239217023,0.08763010755481443,43362.0,0.026756509430689066,0.5419077908370047,0.98,21462.0,22899.899483321897,6743.61110760592,118001.93119608512,107310.0
+B|low|established|salary_advance,B,low,established,"<bound method Series.prod of cohort           B|low|established|salary_advance
+n                                               3
+pd_band                                         B
+util_bucket                                   low
+tenure_bucket                         established
+product                            salary_advance
+base_pd                                  0.062601
+current_limit                        15333.333333
+utilization                              0.324812
+balance                              14858.767684
+total_limit                               46000.0
+mean_income                          26394.172749
+Name: 20, dtype: object>",3,1.0,100%,3373.874817644228,894.8094422786493,16965.368006447854,0.08088216585311513,30360.000000000004,0.026596790228334395,0.5565316074312835,0.98,15026.666666666668,10121.624452932685,2684.4283268359477,50896.10401934356,45080.0
+B|low|loyal|personal,B,low,loyal,"<bound method Series.prod of cohort           B|low|loyal|personal
+n                                  11
+pd_band                             B
+util_bucket                       low
+tenure_bucket                   loyal
+product                      personal
+base_pd                      0.056928
+current_limit                 22000.0
+utilization                  0.311969
+balance                  74738.915322
+total_limit                  242000.0
+mean_income              52193.700765
+Name: 21, dtype: object>",11,1.0,100%,4904.706242589864,1151.3214865850086,23975.872566365986,0.07363552099143499,43560.0,0.026253234728046342,0.5480882762504565,0.98,21560.0,53951.768668488505,12664.536352435094,263734.59823002585,237160.0
+B|low|loyal|salary_advance,B,low,loyal,"<bound method Series.prod of cohort           B|low|loyal|salary_advance
+n                                        10
+pd_band                                   B
+util_bucket                             low
+tenure_bucket                         loyal
+product                      salary_advance
+base_pd                            0.060794
+current_limit                       13350.0
+utilization                        0.317042
+balance                        40203.798982
+total_limit                        133500.0
+mean_income                    30470.316506
+Name: 22, dtype: object>",10,1.0,100%,2897.675620141978,750.2264362924458,14636.663488009915,0.07860018083878273,26433.0,0.026471137146488383,0.5514234731125099,0.98,13083.0,28976.75620141978,7502.264362924458,146366.63488009915,130830.0
+B|med|established|personal,B,med,established,"<bound method Series.prod of cohort           B|med|established|personal
+n                                       228
+pd_band                                   B
+util_bucket                             med
+tenure_bucket                   established
+product                            personal
+base_pd                            0.061165
+current_limit                  16203.947368
+utilization                         0.52377
+balance                      1922512.396142
+total_limit                       3694500.0
+mean_income                    32899.169498
+Name: 23, dtype: object>",228,1.0,100%,4934.881257372322,1118.4545374289148,22101.657887351073,0.07764921071180524,32083.815789473683,0.027399534453828124,0.6873262105057127,0.98,15879.868421052632,1125152.9266808894,255007.6345337926,5039177.998316045,3620610.0
+B|med|established|salary_advance,B,med,established,"<bound method Series.prod of cohort           B|med|established|salary_advance
+n                                             163
+pd_band                                         B
+util_bucket                                   med
+tenure_bucket                         established
+product                            salary_advance
+base_pd                                   0.06015
+current_limit                         18361.96319
+utilization                              0.514971
+balance                            1535847.044234
+total_limit                             2993000.0
+mean_income                          32897.997476
+Name: 24, dtype: object>",163,1.0,100%,5565.791782891023,1236.9619514825176,24835.99058131373,0.0764203135506353,36356.68711656442,0.027309449898335787,0.6815417872257586,0.98,17994.723926380368,907224.0606112367,201624.7980916504,4048266.464754138,2933140.0
+B|med|loyal|personal,B,med,loyal,"<bound method Series.prod of cohort           B|med|loyal|personal
+n                                 221
+pd_band                             B
+util_bucket                       med
+tenure_bucket                   loyal
+product                      personal
+base_pd                       0.05944
+current_limit            15988.687783
+utilization                  0.516982
+balance                1841596.151283
+total_limit                 3533500.0
+mean_income               30068.81546
+Name: 25, dtype: object>",221,1.0,100%,4853.253192104582,1066.222599074783,21667.567243264446,0.07550468451812224,31657.601809954747,0.02728237010613547,0.6828637551798871,0.98,15668.91402714932,1072568.9554551127,235635.194395527,4788532.360761442,3462829.9999999995
+B|med|loyal|salary_advance,B,med,loyal,"<bound method Series.prod of cohort           B|med|loyal|salary_advance
+n                                       163
+pd_band                                   B
+util_bucket                             med
+tenure_bucket                         loyal
+product                      salary_advance
+base_pd                            0.059718
+current_limit                  16935.582822
+utilization                         0.52397
+balance                      1463502.842567
+total_limit                       2760500.0
+mean_income                    32996.577393
+Name: 26, dtype: object>",163,1.0,100%,5193.690872088158,1141.498265752315,23103.969577248718,0.075811035846903,33532.453987730056,0.027327202322383674,0.687457702854966,0.98,16596.87116564417,846571.6121503698,186064.21731762736,3765947.041091541,2705289.9999999995
+B|med|new|personal,B,med,new,"<bound method Series.prod of cohort           B|med|new|personal
+n                                13
+pd_band                           B
+util_bucket                     med
+tenure_bucket                   new
+product                    personal
+base_pd                    0.063497
+current_limit          13461.538462
+utilization                0.520783
+balance                94171.050764
+total_limit                175000.0
+mean_income             33654.24143
+Name: 27, dtype: object>",13,1.0,100%,4022.0229263041338,962.1231273291071,18309.056938420275,0.08063154788383571,26653.846153846152,0.027504406992587105,0.6853626717602304,0.98,13192.307692307691,52286.29804195374,12507.600655278393,238017.7401994636,171500.0
+B|med|new|salary_advance,B,med,new,"<bound method Series.prod of cohort           B|med|new|salary_advance
+n                                      23
+pd_band                                 B
+util_bucket                           med
+tenure_bucket                         new
+product                    salary_advance
+base_pd                          0.062739
+current_limit                 16978.26087
+utilization                      0.524923
+balance                     207004.959971
+total_limit                      390500.0
+mean_income                  36710.226322
+Name: 28, dtype: object>",23,1.0,100%,5155.6662731406295,1203.244931458665,23183.13555391288,0.0796391610717399,33616.95652173913,0.027484249614531435,0.6880841960448825,0.98,16638.695652173912,118580.32428223448,27674.633423549294,533212.1177399963,382690.0
+C|high|established|personal,C,high,established,"<bound method Series.prod of cohort           C|high|established|personal
+n                                         12
+pd_band                                    C
+util_bucket                             high
+tenure_bucket                    established
+product                             personal
+base_pd                             0.101779
+current_limit                        15875.0
+utilization                         0.720407
+balance                         136691.76285
+total_limit                         190500.0
+mean_income                     33838.207182
+Name: 29, dtype: object>",12,0.5,50%,3672.945306313051,1325.8663245885161,17986.669055386516,0.11319446641876448,23415.147948157857,0.06667999194706116,0.767607314953146,0.9499398989805174,7540.147948157857,44075.34367575661,15910.395895062193,215840.02866463817,90481.77537789429
+C|high|established|salary_advance,C,high,established,"<bound method Series.prod of cohort           C|high|established|salary_advance
+n                                                4
+pd_band                                          C
+util_bucket                                   high
+tenure_bucket                          established
+product                             salary_advance
+base_pd                                   0.106668
+current_limit                               8875.0
+utilization                               0.746758
+balance                               26684.195175
+total_limit                                35500.0
+mean_income                           56827.143559
+Name: 30, dtype: object>",4,0.5,50%,2035.6720355864018,799.0655070543538,10349.039870131262,0.11857741116729331,13098.170519957213,0.06680392811644935,0.7896558173371132,0.9517003988635976,4223.170519957214,8142.688142345607,3196.2620282174153,41396.15948052505,16892.682079828857
+C|high|loyal|personal,C,high,loyal,"<bound method Series.prod of cohort           C|high|loyal|personal
+n                                   13
+pd_band                              C
+util_bucket                       high
+tenure_bucket                    loyal
+product                       personal
+base_pd                       0.101984
+current_limit             10230.769231
+utilization                   0.725887
+balance                   96849.325657
+total_limit                   133000.0
+mean_income               24084.452454
+Name: 31, dtype: object>",13,0.5,50%,2332.5079955292335,861.3130212263303,11662.346488323039,0.11341271198535821,15092.36710901942,0.06664671801028617,0.7721968262295403,0.9503875551466535,4861.597878250189,30322.603941880036,11197.069275942295,151610.5043481995,63200.772417252454
+C|high|loyal|salary_advance,C,high,loyal,"<bound method Series.prod of cohort           C|high|loyal|salary_advance
+n                                          8
+pd_band                                    C
+util_bucket                             high
+tenure_bucket                          loyal
+product                       salary_advance
+base_pd                             0.100313
+current_limit                        23500.0
+utilization                         0.737271
+balance                        141802.995357
+total_limit                         188000.0
+mean_income                     47688.595865
+Name: 32, dtype: object>",8,1.0,100%,8088.701243177362,3136.8896456807743,38547.60444535929,0.1249234399518272,46530.0,0.030319822907977082,0.8276819609966072,0.98,23030.0,64709.609945418895,25095.117165446194,308380.83556287433,184240.0
+C|high|new|personal,C,high,new,"<bound method Series.prod of cohort           C|high|new|personal
+n                                  2
+pd_band                            C
+util_bucket                     high
+tenure_bucket                    new
+product                     personal
+base_pd                     0.098095
+current_limit                33750.0
+utilization                 0.791901
+balance                 52949.022197
+total_limit                  67500.0
+mean_income             23823.200235
+Name: 33, dtype: object>",2,1.0,100%,12491.875921964378,4572.162835975088,57747.50264519257,0.12155505105469878,66825.0,0.030447979997988907,0.8635959515393855,0.98,33075.0,24983.751843928756,9144.325671950175,115495.00529038515,66150.0
+C|high|new|salary_advance,C,high,new,"<bound method Series.prod of cohort           C|high|new|salary_advance
+n                                        1
+pd_band                                  C
+util_bucket                           high
+tenure_bucket                          new
+product                     salary_advance
+base_pd                           0.101766
+current_limit                       8000.0
+utilization                       0.802484
+balance                        6419.872102
+total_limit                         8000.0
+mean_income                   31301.609996
+Name: 34, dtype: object>",1,1.0,100%,2838.1560237782287,1132.2100059623608,13797.882448551101,0.1259815619112605,15840.0,0.03068027481450705,0.8705529899642203,0.98,7840.0,2838.1560237782287,1132.2100059623608,13797.882448551101,7840.0
+C|low|established|personal,C,low,established,"<bound method Series.prod of cohort           C|low|established|personal
+n                                         7
+pd_band                                   C
+util_bucket                             low
+tenure_bucket                   established
+product                            personal
+base_pd                            0.103458
+current_limit                   9642.857143
+utilization                        0.328998
+balance                        21129.537114
+total_limit                         67500.0
+mean_income                    19020.753346
+Name: 35, dtype: object>",7,0.5,50%,785.4293502021134,464.0481221254938,6145.929433478184,0.11554909468911576,13998.406842847553,0.06923044393797459,0.43571234894419153,0.903373271109122,4355.54969999041,5498.005451414793,3248.3368548784565,43021.50603434729,30488.84789993287
+C|low|established|salary_advance,C,low,established,"<bound method Series.prod of cohort           C|low|established|salary_advance
+n                                               3
+pd_band                                         C
+util_bucket                                   low
+tenure_bucket                         established
+product                            salary_advance
+base_pd                                   0.09587
+current_limit                        11333.333333
+utilization                              0.343357
+balance                              11635.726107
+total_limit                               34000.0
+mean_income                          33950.068743
+Name: 36, dtype: object>",3,1.0,100%,2180.9566007366457,1033.095832054207,12811.66293318778,0.12366562593337198,22440.000000000004,0.02836180977282124,0.5687226613473638,0.98,11106.666666666668,6542.869802209937,3099.287496162621,38434.98879956334,33320.0
+C|low|loyal|personal,C,low,loyal,"<bound method Series.prod of cohort           C|low|loyal|personal
+n                                   2
+pd_band                             C
+util_bucket                       low
+tenure_bucket                   loyal
+product                      personal
+base_pd                      0.097239
+current_limit                  7000.0
+utilization                  0.321703
+balance                   4563.182646
+total_limit                   14000.0
+mean_income                 30021.911
+Name: 37, dtype: object>",2,1.0,100%,1223.2604189519757,632.4007350297203,7716.882175489669,0.12566985822364685,13860.0,0.028335802509973078,0.5544872353618785,0.98,6860.0,2446.5208379039514,1264.8014700594406,15433.764350979338,13720.0
+C|low|loyal|salary_advance,C,low,loyal,"<bound method Series.prod of cohort           C|low|loyal|salary_advance
+n                                         3
+pd_band                                   C
+util_bucket                             low
+tenure_bucket                         loyal
+product                      salary_advance
+base_pd                            0.092806
+current_limit                  19166.666667
+utilization                        0.317403
+balance                        18856.520144
+total_limit                         57500.0
+mean_income                    23594.379909
+Name: 38, dtype: object>",3,1.0,100%,3657.989306975549,1644.9323028143933,21022.89336874452,0.11998567086700948,37950.00000000001,0.02809256575669246,0.551660817190277,0.98,18783.333333333336,10973.967920926647,4934.79690844318,63068.68010623356,56350.00000000001
+C|low|new|personal,C,low,new,"<bound method Series.prod of cohort           C|low|new|personal
+n                                 1
+pd_band                           C
+util_bucket                     low
+tenure_bucket                   new
+product                    personal
+base_pd                    0.111853
+current_limit                8000.0
+utilization                 0.29713
+balance                 2377.040137
+total_limit                  8000.0
+mean_income             40186.14899
+Name: 39, dtype: object>",1,0.5,50%,503.4407998961686,389.71769579079034,4771.26111914753,0.12492146535795157,11586.816344157269,0.06992229069464152,0.4080404809347288,0.8967040860393172,3586.8163441572688,503.4407998961686,389.71769579079034,4771.26111914753,3586.8163441572688
+C|low|new|salary_advance,C,low,new,"<bound method Series.prod of cohort           C|low|new|salary_advance
+n                                       1
+pd_band                                 C
+util_bucket                           low
+tenure_bucket                         new
+product                    salary_advance
+base_pd                           0.08604
+current_limit                     14500.0
+utilization                      0.277051
+balance                       4017.239461
+total_limit                       14500.0
+mean_income                  10572.515169
+Name: 40, dtype: object>",1,1.0,100%,2594.6164887172545,1102.806815927368,15146.914758838433,0.11163033938951238,28710.0,0.027572625408263957,0.5251333256500356,0.98,14210.0,2594.6164887172545,1102.806815927368,15146.914758838433,14210.0
+C|med|established|personal,C,med,established,"<bound method Series.prod of cohort           C|med|established|personal
+n                                       237
+pd_band                                   C
+util_bucket                             med
+tenure_bucket                   established
+product                            personal
+base_pd                            0.099939
+current_limit                  15050.632911
+utilization                        0.536517
+balance                      1897852.986871
+total_limit                       3567000.0
+mean_income                    31390.245459
+Name: 41, dtype: object>",237,0.5,50%,2480.0381440750184,984.6651906272483,13554.701590585279,0.11143011446755019,22063.285657170938,0.06801104904177217,0.6128316029577977,0.9318747971682156,7012.652745778534,587769.0401457794,233365.65017865784,3212464.276968711,1661998.7007495125
+C|med|established|salary_advance,C,med,established,"<bound method Series.prod of cohort           C|med|established|salary_advance
+n                                             149
+pd_band                                         C
+util_bucket                                   med
+tenure_bucket                         established
+product                            salary_advance
+base_pd                                  0.100533
+current_limit                        14211.409396
+utilization                              0.542088
+balance                            1145776.450406
+total_limit                             2117500.0
+mean_income                          30891.618098
+Name: 42, dtype: object>",149,0.5,50%,2356.773697685199,942.4688261855644,12898.730710939535,0.11208334618947283,20837.010357620147,0.06801789865561836,0.6175411224354233,0.9324340432447714,6625.600961646992,351159.2809550946,140427.8551016491,1921910.8759299908,987214.5432854018
+C|med|loyal|personal,C,med,loyal,"<bound method Series.prod of cohort           C|med|loyal|personal
+n                                 162
+pd_band                             C
+util_bucket                       med
+tenure_bucket                   loyal
+product                      personal
+base_pd                       0.09994
+current_limit            11561.728395
+utilization                  0.531965
+balance                 990159.121486
+total_limit                 1873000.0
+mean_income              32649.803011
+Name: 43, dtype: object>",162,1.0,100%,3005.352491069385,1313.0889500650646,15892.46796876031,0.12678129557019144,22892.222222222223,0.029397598725846182,0.6927137657635845,0.98,11330.493827160493,486867.10355324036,212720.40991054047,2574579.81093917,1835540.0
+C|med|loyal|salary_advance,C,med,loyal,"<bound method Series.prod of cohort           C|med|loyal|salary_advance
+n                                       102
+pd_band                                   C
+util_bucket                             med
+tenure_bucket                         loyal
+product                      salary_advance
+base_pd                            0.096196
+current_limit                  15911.764706
+utilization                        0.534371
+balance                       870030.980231
+total_limit                       1623000.0
+mean_income                    31305.169803
+Name: 44, dtype: object>",102,1.0,100%,4275.238619170261,1742.997095139153,21921.46721298022,0.12200622683504427,31505.29411764706,0.029218763934201315,0.6942952056200701,0.98,15593.529411764706,436074.3391553666,177785.7037041936,2235989.6557239825,1590540.0
+C|med|new|personal,C,med,new,"<bound method Series.prod of cohort           C|med|new|personal
+n                                22
+pd_band                           C
+util_bucket                     med
+tenure_bucket                   new
+product                    personal
+base_pd                    0.094638
+current_limit          15181.818182
+utilization                0.508828
+balance               167458.557388
+total_limit                334000.0
+mean_income            33332.223566
+Name: 45, dtype: object>",22,1.0,100%,3950.471944879592,1600.5786717527976,20413.879812216608,0.12030360677920536,30060.0,0.02902753271077761,0.6775034514132884,0.98,14878.181818181818,86910.38278735102,35212.73077856155,449105.3558687654,327320.0
+C|med|new|salary_advance,C,med,new,"<bound method Series.prod of cohort           C|med|new|salary_advance
+n                                      20
+pd_band                                 C
+util_bucket                           med
+tenure_bucket                         new
+product                    salary_advance
+base_pd                          0.101414
+current_limit                     11725.0
+utilization                      0.583296
+balance                     137521.645679
+total_limit                      234500.0
+mean_income                  32809.762793
+Name: 46, dtype: object>",20,1.0,100%,3257.60279393081,1409.937152395116,16895.942048482088,0.1280626522164561,23215.5,0.029698068565123067,0.7264588763321036,0.98,11490.5,65152.0558786162,28198.74304790232,337918.84096964175,229810.0
+D|high|established|personal,D,high,established,"<bound method Series.prod of cohort           D|high|established|personal
+n                                         24
+pd_band                                    D
+util_bucket                             high
+tenure_bucket                    established
+product                             personal
+base_pd                             0.147563
+current_limit                         9000.0
+utilization                         0.734197
+balance                        158367.249623
+total_limit                         216000.0
+mean_income                     30928.376327
+Name: 47, dtype: object>",24,0.1,10%,1146.7412017251308,702.6151322783298,7202.876273627088,0.1500177117220696,9671.235939727283,0.1352521397067593,0.7448680167168054,0.7458177108080922,671.235939727283,27521.78884140314,16862.763174679916,172869.03056705013,16109.662553454793
+D|high|established|salary_advance,D,high,established,"<bound method Series.prod of cohort           D|high|established|salary_advance
+n                                               15
+pd_band                                          D
+util_bucket                                   high
+tenure_bucket                          established
+product                             salary_advance
+base_pd                                   0.153031
+current_limit                         10566.666667
+utilization                               0.745777
+balance                              120256.280569
+total_limit                               158500.0
+mean_income                           24426.899193
+Name: 48, dtype: object>",15,0.0,0%,1176.1592017370622,799.5375094370044,8037.98772965213,0.15303055294405074,10566.666666666666,0.296313450036551,0.7606928450774887,0.0,0.0,17642.38802605593,11993.062641555065,120569.81594478195,0.0
+D|high|loyal|personal,D,high,loyal,"<bound method Series.prod of cohort           D|high|loyal|personal
+n                                   15
+pd_band                              D
+util_bucket                       high
+tenure_bucket                    loyal
+product                       personal
+base_pd                       0.147727
+current_limit                  11100.0
+utilization                    0.73498
+balance                  121914.606682
+total_limit                   166500.0
+mean_income               30771.521885
+Name: 49, dtype: object>",15,0.1,10%,1450.7469420056027,868.4307050273471,8892.837173490589,0.15018480719009678,11928.085195970149,0.13526187369319448,0.7456333313383118,0.746022699072204,828.0851959701464,21761.20413008404,13026.460575410207,133392.55760235884,12421.277939552196
+D|high|loyal|salary_advance,D,high,loyal,"<bound method Series.prod of cohort           D|high|loyal|salary_advance
+n                                         10
+pd_band                                    D
+util_bucket                             high
+tenure_bucket                          loyal
+product                       salary_advance
+base_pd                             0.149912
+current_limit                         9450.0
+utilization                         0.727349
+balance                         68354.774327
+total_limit                          94500.0
+mean_income                     26635.142931
+Name: 50, dtype: object>",10,0.1,10%,1181.6208319460707,742.4997370217116,7492.907987808463,0.1523964027608265,10151.734998329883,0.13568688196236478,0.7381804160453511,0.7425767178093996,701.7349983298826,11816.208319460708,7424.9973702171155,74929.07987808462,7017.349983298826
+D|high|new|personal,D,high,new,"<bound method Series.prod of cohort           D|high|new|personal
+n                                  1
+pd_band                            D
+util_bucket                     high
+tenure_bucket                    new
+product                     personal
+base_pd                     0.138926
+current_limit                11500.0
+utilization                  0.78101
+balance                  8981.611687
+total_limit                  11500.0
+mean_income              8080.981136
+Name: 51, dtype: object>",1,0.1,10%,1714.3194953904222,898.9090939448304,9784.750384529409,0.1412895809337311,12379.269117795742,0.13320674993748735,0.7905472491541619,0.7645818415615141,879.2691177957412,1714.3194953904222,898.9090939448304,9784.750384529409,879.2691177957412
+D|high|new|salary_advance,D,high,new,"<bound method Series.prod of cohort           D|high|new|salary_advance
+n                                        2
+pd_band                                  D
+util_bucket                           high
+tenure_bucket                          new
+product                     salary_advance
+base_pd                           0.169955
+current_limit                      11250.0
+utilization                       0.715114
+balance                       15900.364037
+total_limit                        22500.0
+mean_income                   42269.409929
+Name: 52, dtype: object>",2,0.0,0%,1089.8246773215928,906.5166685042417,8205.937658525745,0.16995510891056675,11250.0,0.2909215751508117,0.7294166807578439,0.0,0.0,2179.6493546431857,1813.0333370084834,16411.87531705149,0.0
+D|low|established|personal,D,low,established,"<bound method Series.prod of cohort           D|low|established|personal
+n                                         5
+pd_band                                   D
+util_bucket                             low
+tenure_bucket                   established
+product                            personal
+base_pd                            0.145545
+current_limit                        7500.0
+utilization                        0.322671
+balance                          12061.9803
+total_limit                         37500.0
+mean_income                    43677.432183
+Name: 53, dtype: object>",5,0.1,10%,81.58548244053293,258.6288169992694,2695.7598529525826,0.14748235131861745,7938.091196450479,0.13174574616924042,0.33920200658758226,0.5841215952673069,438.0911964504802,407.92741220266464,1293.1440849963471,13478.799264762913,2190.455982252401
+D|low|established|salary_advance,D,low,established,"<bound method Series.prod of cohort           D|low|established|salary_advance
+n                                               3
+pd_band                                         D
+util_bucket                                   low
+tenure_bucket                         established
+product                            salary_advance
+base_pd                                  0.138823
+current_limit                        10166.666667
+utilization                              0.313269
+balance                               9439.120673
+total_limit                               30500.0
+mean_income                          44546.217705
+Name: 54, dtype: object>",3,0.1,10%,153.7806816746047,325.2199410650255,3553.9983540026724,0.1406685154961222,10759.664479460338,0.13056619540531028,0.32989941817312407,0.5832765371741023,592.9978127936707,461.3420450238141,975.6598231950766,10661.995062008016,1778.9934383810123
+D|low|loyal|personal,D,low,loyal,"<bound method Series.prod of cohort           D|low|loyal|personal
+n                                   1
+pd_band                             D
+util_bucket                       low
+tenure_bucket                   loyal
+product                      personal
+base_pd                      0.153573
+current_limit                  5000.0
+utilization                  0.330327
+balance                   1651.636423
+total_limit                    5000.0
+mean_income              37476.321937
+Name: 55, dtype: object>",1,0.1,10%,4.941424382432446,185.9558874641309,1837.0057541234357,0.15561416373014064,5291.78459885608,0.13301591507836763,0.34675646668449855,0.5835691977121619,291.78459885608095,4.941424382432446,185.9558874641309,1837.0057541234357,291.78459885608095
+D|low|loyal|salary_advance,D,low,loyal,"<bound method Series.prod of cohort           D|low|loyal|salary_advance
+n                                         2
+pd_band                                   D
+util_bucket                             low
+tenure_bucket                         loyal
+product                      salary_advance
+base_pd                            0.143575
+current_limit                       13500.0
+utilization                        0.334741
+balance                         9202.378224
+total_limit                         27000.0
+mean_income                    29379.594322
+Name: 56, dtype: object>",2,0.0,0%,230.2108116823764,430.1648640875137,4609.384737571837,0.14357493163931426,13500.0,0.2051290331851614,0.3414359064868027,0.0,0.0,460.4216233647528,860.3297281750274,9218.769475143674,0.0
+D|med|established|personal,D,med,established,"<bound method Series.prod of cohort           D|med|established|personal
+n                                       280
+pd_band                                   D
+util_bucket                             med
+tenure_bucket                   established
+product                            personal
+base_pd                            0.149019
+current_limit                       12700.0
+utilization                        0.553937
+balance                       1972097.50966
+total_limit                       3556000.0
+mean_income                     32142.76295
+Name: 57, dtype: object>",280,0.0,0%,884.0549238153878,695.0546717401913,7175.69988519161,0.14901889665244003,12700.0,0.2537876515146681,0.5650157389914653,0.0,0.0,247535.3786683086,194615.30808725356,2009195.9678536507,0.0
+D|med|established|salary_advance,D,med,established,"<bound method Series.prod of cohort           D|med|established|salary_advance
+n                                             155
+pd_band                                         D
+util_bucket                                   med
+tenure_bucket                         established
+product                            salary_advance
+base_pd                                  0.148015
+current_limit                        11774.193548
+utilization                              0.550765
+balance                            1003660.297322
+total_limit                             1825000.0
+mean_income                          30321.077205
+Name: 58, dtype: object>",155,0.0,0%,803.9193107569248,636.3809017311575,6614.51349668726,0.14801504927236037,11774.193548387097,0.2530095682915259,0.561780598348781,0.0,0.0,124607.49316732335,98639.0397683294,1025249.5919865253,0.0
+D|med|loyal|personal,D,med,loyal,"<bound method Series.prod of cohort           D|med|loyal|personal
+n                                 155
+pd_band                             D
+util_bucket                       med
+tenure_bucket                   loyal
+product                      personal
+base_pd                      0.146902
+current_limit            13406.451613
+utilization                  0.550578
+balance                1121794.671078
+total_limit                 2078000.0
+mean_income              29621.290522
+Name: 59, dtype: object>",155,0.0,0%,941.0535197068466,718.9078085217025,7528.919154420071,0.14690183151468628,13406.451612903225,0.25287924043015814,0.561589253578013,0.0,0.0,145863.29555456122,111430.71032086389,1166982.468935111,0.0
+D|med|loyal|salary_advance,D,med,loyal,"<bound method Series.prod of cohort           D|med|loyal|salary_advance
+n                                        90
+pd_band                                   D
+util_bucket                             med
+tenure_bucket                         loyal
+product                      salary_advance
+base_pd                             0.14638
+current_limit                       11750.0
+utilization                        0.551233
+balance                       582903.344433
+total_limit                       1057500.0
+mean_income                    31644.201993
+Name: 60, dtype: object>",90,0.0,0%,810.4046715268167,628.5925458573919,6606.532784625608,0.14638017954224408,11750.0,0.25298177127765853,0.562258109329839,0.0,0.0,72936.4204374135,56573.32912716527,594587.9506163046,0.0
+D|med|new|personal,D,med,new,"<bound method Series.prod of cohort           D|med|new|personal
+n                                25
+pd_band                           D
+util_bucket                     med
+tenure_bucket                   new
+product                    personal
+base_pd                    0.148692
+current_limit               13120.0
+utilization                0.570061
+balance               186410.086194
+total_limit                328000.0
+mean_income            35734.293387
+Name: 61, dtype: object>",25,0.0,0%,971.4642168040821,737.3215934334256,7628.788511232036,0.14869214309773895,13120.0,0.2573088602443764,0.5814625389658564,0.0,0.0,24286.605420102052,18433.03983583564,190719.7127808009,0.0
+D|med|new|salary_advance,D,med,new,"<bound method Series.prod of cohort           D|med|new|salary_advance
+n                                      12
+pd_band                                 D
+util_bucket                           med
+tenure_bucket                         new
+product                    salary_advance
+base_pd                          0.144337
+current_limit                11083.333333
+utilization                      0.572656
+balance                      80328.863862
+total_limit                      133000.0
+mean_income                  32401.967882
+Name: 62, dtype: object>",12,0.1,10%,965.1534838314884,662.3402115942,6948.864367034628,0.1465713219279458,11846.181023862167,0.13617692339671156,0.5865207654599016,0.6882836305523315,762.8476905288343,11581.841805977861,7948.082539130401,83386.37240441554,9154.17228634601
+E|high|established|personal,E,high,established,"<bound method Series.prod of cohort           E|high|established|personal
+n                                         94
+pd_band                                    E
+util_bucket                             high
+tenure_bucket                    established
+product                             personal
+base_pd                             0.296539
+current_limit                    8914.893617
+utilization                         0.742766
+balance                        624030.520407
+total_limit                         838000.0
+mean_income                     32717.716825
+Name: 63, dtype: object>",94,0.0,0%,325.5754116853332,1301.8555425243187,6754.109644057451,0.2965386685081193,8914.893617021276,0.30713152092122714,0.7576208908608597,0.0,0.0,30604.08869842132,122374.42099728595,634886.3065414004,0.0
+E|high|established|salary_advance,E,high,established,"<bound method Series.prod of cohort           E|high|established|salary_advance
+n                                               42
+pd_band                                          E
+util_bucket                                   high
+tenure_bucket                          established
+product                             salary_advance
+base_pd                                   0.290269
+current_limit                          7428.571429
+utilization                               0.737985
+balance                              229790.867191
+total_limit                               312000.0
+mean_income                           37607.746357
+Name: 64, dtype: object>",42,0.0,0%,264.4364331323309,1055.0365003976754,5591.820956931238,0.2902691430996124,7428.571428571428,0.30557832393805395,0.7527451288176666,0.0,0.0,11106.330191557896,44311.533016702364,234856.48019111197,0.0
+E|high|loyal|personal,E,high,loyal,"<bound method Series.prod of cohort           E|high|loyal|personal
+n                                   52
+pd_band                              E
+util_bucket                       high
+tenure_bucket                    loyal
+product                       personal
+base_pd                       0.281042
+current_limit             11846.153846
+utilization                    0.73399
+balance                  453514.196489
+total_limit                   616000.0
+mean_income               33637.988607
+Name: 65, dtype: object>",52,0.0,0%,557.9466129579238,1620.13989092691,8868.855705227154,0.2810422214502004,11846.153846153846,0.3039611426571267,0.7486696374542402,0.0,0.0,29013.223873812036,84247.27432819933,461180.49667181197,0.0
+E|high|loyal|salary_advance,E,high,loyal,"<bound method Series.prod of cohort           E|high|loyal|salary_advance
+n                                         16
+pd_band                                    E
+util_bucket                             high
+tenure_bucket                          loyal
+product                       salary_advance
+base_pd                             0.251731
+current_limit                       11906.25
+utilization                          0.73371
+balance                        139018.913576
+total_limit                         190500.0
+mean_income                      30219.01357
+Name: 66, dtype: object>",16,0.0,0%,732.6886315269666,1457.9746037525101,8910.45201407914,0.25173109606367683,11906.25,0.30155473537980143,0.7483844211300065,0.0,0.0,11723.018104431465,23327.593660040162,142567.23222526623,0.0
+E|high|new|personal,E,high,new,"<bound method Series.prod of cohort           E|high|new|personal
+n                                 10
+pd_band                            E
+util_bucket                     high
+tenure_bucket                    new
+product                     personal
+base_pd                      0.30285
+current_limit                 9100.0
+utilization                 0.744974
+balance                 67277.443644
+total_limit                  91000.0
+mean_income             48134.724306
+Name: 67, dtype: object>",10,0.0,0%,309.53097104136486,1361.2069869363027,6914.847680601605,0.30285043026492564,9100.0,0.3081222910180862,0.7598733714946819,0.0,0.0,3095.3097104136486,13612.069869363026,69148.47680601606,0.0
+E|high|new|salary_advance,E,high,new,"<bound method Series.prod of cohort           E|high|new|salary_advance
+n                                        7
+pd_band                                  E
+util_bucket                           high
+tenure_bucket                          new
+product                     salary_advance
+base_pd                           0.287132
+current_limit                  7428.571429
+utilization                       0.732322
+balance                       38816.776453
+total_limit                        52000.0
+mean_income                   40787.669849
+Name: 68, dtype: object>",7,0.0,0%,269.8965923059611,1035.6254835047782,5548.905505703795,0.2871322953661748,7428.571428571428,0.30408133926247355,0.7469680488447417,0.0,0.0,1889.2761461417278,7249.378384533447,38842.33853992657,0.0
+E|low|established|personal,E,low,established,"<bound method Series.prod of cohort           E|low|established|personal
+n                                         1
+pd_band                                   E
+util_bucket                             low
+tenure_bucket                   established
+product                            personal
+base_pd                            0.180061
+current_limit                       17500.0
+utilization                        0.304436
+balance                         5327.623134
+total_limit                         17500.0
+mean_income                    38147.983725
+Name: 69, dtype: object>",1,0.0,0%,76.14181154644831,636.0127388264783,5434.175596441582,0.1800606401634963,17500.0,0.20138068489471267,0.3105243197966618,0.0,0.0,76.14181154644831,636.0127388264783,5434.175596441582,0.0
+E|low|loyal|personal,E,low,loyal,"<bound method Series.prod of cohort           E|low|loyal|personal
+n                                   3
+pd_band                             E
+util_bucket                       low
+tenure_bucket                   loyal
+product                      personal
+base_pd                      0.248109
+current_limit             9833.333333
+utilization                  0.333226
+balance                   9881.754197
+total_limit                   29500.0
+mean_income              36805.937726
+Name: 70, dtype: object>",3,0.0,0%,-106.49266973001971,539.0094289875525,3342.258172029313,0.24810928201335625,9833.333333333334,0.21315849309411422,0.33989066156230296,0.0,0.0,-319.47800919005914,1617.0282869626576,10026.774516087939,0.0
+E|med|established|personal,E,med,established,"<bound method Series.prod of cohort           E|med|established|personal
+n                                       426
+pd_band                                   E
+util_bucket                             med
+tenure_bucket                   established
+product                            personal
+base_pd                            0.262879
+current_limit                  10427.230047
+utilization                        0.585653
+balance                      2601687.339636
+total_limit                       4442000.0
+mean_income                     31850.36848
+Name: 71, dtype: object>",426,0.0,0%,313.424374494917,1064.335095051086,6228.876620339119,0.26287863889038704,10427.230046948356,0.26987401917450005,0.5973663755660659,0.0,0.0,133518.78353483466,453406.75049176265,2653501.4402644644,0.0
+E|med|established|salary_advance,E,med,established,"<bound method Series.prod of cohort           E|med|established|salary_advance
+n                                             177
+pd_band                                         E
+util_bucket                                   med
+tenure_bucket                         established
+product                            salary_advance
+base_pd                                  0.256459
+current_limit                         8621.468927
+utilization                               0.58858
+balance                             883008.052619
+total_limit                             1526000.0
+mean_income                          34984.121959
+Name: 72, dtype: object>",177,0.0,0%,259.2050428604441,862.817073465691,5175.910482164631,0.2564593972073044,8621.468926553673,0.2700042971826766,0.6003513468827913,0.0,0.0,45879.29258629861,152718.6220034273,916136.1553431397,0.0
+E|med|loyal|personal,E,med,loyal,"<bound method Series.prod of cohort           E|med|loyal|personal
+n                                 199
+pd_band                             E
+util_bucket                       med
+tenure_bucket                   loyal
+product                      personal
+base_pd                      0.255495
+current_limit             9947.236181
+utilization                  0.594059
+balance                1185051.548499
+total_limit                 1979500.0
+mean_income              30536.358335
+Name: 73, dtype: object>",199,0.0,0%,335.2490783671225,1000.9858764512587,6027.432869508106,0.25549488560113176,9947.236180904523,0.2711326312905992,0.6059404602334494,0.0,0.0,66714.56659505737,199196.1894138005,1199459.141032113,0.0
+E|med|loyal|salary_advance,E,med,loyal,"<bound method Series.prod of cohort           E|med|loyal|salary_advance
+n                                        70
+pd_band                                   E
+util_bucket                             med
+tenure_bucket                         loyal
+product                      salary_advance
+base_pd                            0.263172
+current_limit                        8300.0
+utilization                        0.596487
+balance                       346374.695017
+total_limit                        581000.0
+mean_income                    32795.610268
+Name: 74, dtype: object>",70,0.0,0%,232.862443571805,863.8364606460843,5049.8568305745175,0.26317165314042146,8300.0,0.27228081738310156,0.6084164856113876,0.0,0.0,16300.37105002635,60468.5522452259,353489.9781402162,0.0
+E|med|new|personal,E,med,new,"<bound method Series.prod of cohort           E|med|new|personal
+n                                55
+pd_band                           E
+util_bucket                     med
+tenure_bucket                   new
+product                    personal
+base_pd                    0.253192
+current_limit           9209.090909
+utilization                0.591514
+balance               297526.930407
+total_limit                506500.0
+mean_income            30609.558622
+Name: 75, dtype: object>",55,0.0,0%,303.63848596265484,914.4170514082471,5556.2487055476995,0.25319159351170956,9209.09090909091,0.27038832273310404,0.60334388707823,0.0,0.0,16700.116727946017,50292.937827453585,305593.6788051235,0.0
+E|med|new|salary_advance,E,med,new,"<bound method Series.prod of cohort           E|med|new|salary_advance
+n                                      22
+pd_band                                 E
+util_bucket                           med
+tenure_bucket                         new
+product                    salary_advance
+base_pd                          0.267545
+current_limit                 8181.818182
+utilization                      0.588218
+balance                     106363.302365
+total_limit                      180000.0
+mean_income                  35814.116495
+Name: 76, dtype: object>",22,0.0,0%,202.0698744363807,853.6859127115191,4908.9483314596255,0.2675446661795667,8181.818181818182,0.2708115794178108,0.5999825738450654,0.0,0.0,4445.537237600375,18781.09007965342,107996.86329211175,0.0

@@ -1,0 +1,141 @@
+{
+  "baseline_table": [
+    {
+      "strategy": "no_increase",
+      "total_profit": 4108285.8660285687,
+      "profit_lift_pct": 0.0,
+      "default_rate_proxy": 0.12886842162279535,
+      "el_ratio": 0.08376447405481699,
+      "incremental_limit": 0.0,
+      "avg_churn": 0.2540157621337497,
+      "status": "Forced",
+      "total_profit_m": 4.108285866028568,
+      "default_rate_pct": 12.886842162279535,
+      "el_ratio_pct": 8.376447405481699
+    },
+    {
+      "strategy": "uniform_25",
+      "total_profit": 5877182.875389712,
+      "profit_lift_pct": 43.05681413234067,
+      "default_rate_proxy": 0.13370056639450506,
+      "el_ratio": 0.08709135732203359,
+      "incremental_limit": 10954441.959899066,
+      "avg_churn": 0.1069533088595987,
+      "status": "Forced",
+      "total_profit_m": 5.877182875389712,
+      "default_rate_pct": 13.370056639450507,
+      "el_ratio_pct": 8.70913573220336
+    },
+    {
+      "strategy": "risk_based",
+      "total_profit": 5731255.361856229,
+      "profit_lift_pct": 39.5047849334926,
+      "default_rate_proxy": 0.11967886346524555,
+      "el_ratio": 0.07784160540062723,
+      "incremental_limit": 8146944.127493037,
+      "avg_churn": 0.15992860184673538,
+      "status": "Forced",
+      "total_profit_m": 5.7312553618562285,
+      "default_rate_pct": 11.967886346524555,
+      "el_ratio_pct": 7.784160540062723
+    },
+    {
+      "strategy": "greedy_high_util",
+      "total_profit": 5067095.996503465,
+      "profit_lift_pct": 23.338447268319392,
+      "default_rate_proxy": 0.12262463532002875,
+      "el_ratio": 0.07973903533549963,
+      "incremental_limit": 4855839.005474069,
+      "avg_churn": 0.20868017795350155,
+      "status": "Forced",
+      "total_profit_m": 5.067095996503465,
+      "default_rate_pct": 12.262463532002874,
+      "el_ratio_pct": 7.973903533549962
+    },
+    {
+      "strategy": "bandit_heuristic",
+      "total_profit": 11817193.478651682,
+      "profit_lift_pct": 187.64292125745433,
+      "default_rate_proxy": 0.16066542320234534,
+      "el_ratio": 0.10468777713958201,
+      "incremental_limit": 47466790.0,
+      "avg_churn": 0.0525696686801249,
+      "status": "Forced",
+      "total_profit_m": 11.817193478651681,
+      "default_rate_pct": 16.066542320234532,
+      "el_ratio_pct": 10.4687777139582
+    },
+    {
+      "strategy": "optimized_milp",
+      "total_profit": 10249002.711714877,
+      "profit_lift_pct": 149.47150821377642,
+      "default_rate_proxy": 0.11039093972717805,
+      "el_ratio": 0.07185968923678356,
+      "incremental_limit": 29127527.10405392,
+      "avg_churn": 0.14782635456791687,
+      "status": "Optimal",
+      "total_profit_m": 10.249002711714876,
+      "default_rate_pct": 11.039093972717804,
+      "el_ratio_pct": 7.185968923678356
+    }
+  ],
+  "milp": {
+    "status": "Optimal",
+    "scenario": "baseline",
+    "n_accounts": 4000.0,
+    "total_profit": 10249002.711714877,
+    "total_el": 3916539.9621682595,
+    "total_ead": 54502600.88466205,
+    "el_ratio": 0.07185968923678356,
+    "default_rate_proxy": 0.11039093972717805,
+    "incremental_limit": 29127527.10405392,
+    "budget_used_pct": 58.255054208107836,
+    "avg_churn": 0.14782635456791687,
+    "high_risk_ead_share": 0.23423460668983623,
+    "profit_per_account": 2562.250677928719
+  },
+  "ml": {
+    "n_train": 2800,
+    "n_test": 1200,
+    "models": {
+      "pd_logistic": {
+        "name": "logistic_pd",
+        "auc": 0.732102491202722,
+        "brier": 0.1819536419989854,
+        "ap": 0.303192035231777
+      },
+      "pd_gbm": {
+        "name": "gbm_pd",
+        "auc": 0.702480133299154,
+        "brier": 0.11895389975901703,
+        "ap": 0.2280598787998199
+      },
+      "acceptance_logit": {
+        "auc": 0.7621047273652732,
+        "brier": 0.12015353640022385
+      },
+      "utilization_gbm": {
+        "mae": 0.02484627257755524,
+        "r2": 0.9171407036439309,
+        "n_test_accepted": 1014
+      }
+    },
+    "chosen_pd_model": "logistic_pd",
+    "split": "out_of_time_vintage_70_30"
+  },
+  "assumptions": {
+    "market": "East Africa unsecured digital / mobile-money-adjacent lending",
+    "currency": "KES (Kenya Shilling equivalent units)",
+    "horizon_months": 12,
+    "annual_interest_rate": 0.36,
+    "fee_rate_on_draw": 0.02,
+    "lgd": 0.65,
+    "cost_of_capital": 0.12,
+    "operating_cost_per_account": 150,
+    "max_portfolio_el_ratio": 0.09,
+    "max_cvar_proxy_ratio": 0.12,
+    "max_share_high_risk": 0.45,
+    "budget_increase_kes": 50000000,
+    "n_cohorts": null
+  }
+}

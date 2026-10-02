@@ -1,0 +1,71 @@
+{
+  "n_train": 2800,
+  "n_test": 1200,
+  "models": {
+    "pd_logistic": {
+      "name": "logistic_pd",
+      "auc": 0.732102491202722,
+      "brier": 0.1819536419989854,
+      "ap": 0.303192035231777
+    },
+    "pd_gbm": {
+      "name": "gbm_pd",
+      "auc": 0.702480133299154,
+      "brier": 0.11895389975901703,
+      "ap": 0.2280598787998199
+    },
+    "acceptance_logit": {
+      "auc": 0.7621047273652732,
+      "brier": 0.12015353640022385
+    },
+    "utilization_gbm": {
+      "mae": 0.02484627257755524,
+      "r2": 0.9171407036439309,
+      "n_test_accepted": 1014
+    }
+  },
+  "pd_feature_importance": [
+    {
+      "feature": "pd_band",
+      "auc_drop": 0.19409358905641916
+    },
+    {
+      "feature": "offer_tier",
+      "auc_drop": 0.006373657104239094
+    },
+    {
+      "feature": "util_bucket",
+      "auc_drop": 0.0057677518584978715
+    },
+    {
+      "feature": "tenure_m",
+      "auc_drop": 0.0021614504439421145
+    },
+    {
+      "feature": "tenure_bucket",
+      "auc_drop": 0.0012992006711566306
+    },
+    {
+      "feature": "utilization",
+      "auc_drop": 0.00037869077858820877
+    },
+    {
+      "feature": "dti",
+      "auc_drop": 0.00019225839528325128
+    },
+    {
+      "feature": "product",
+      "auc_drop": -1.7478035934770375e-05
+    },
+    {
+      "feature": "monthly_income",
+      "auc_drop": -6.991214373941457e-05
+    },
+    {
+      "feature": "current_limit",
+      "auc_drop": -0.001980844072615451
+    }
+  ],
+  "chosen_pd_model": "logistic_pd",
+  "split": "out_of_time_vintage_70_30"
+}
